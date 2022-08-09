@@ -45,6 +45,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      title: "React App",
       template: path.join(__dirname, "public", "index.html"),
     }),
   ],
